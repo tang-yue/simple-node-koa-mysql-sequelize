@@ -1,5 +1,7 @@
 ### 搭建node + koa + mysql + sequelize 项目笔记
 
+----
+
 #### 第一步
 
 看 [koa官网](https://github.com/demopark/koa-docs-Zh-CN)
@@ -7,10 +9,14 @@
 
 执行以下步骤：
 1、npm init
+
 2、npm install koa
+
 3、npm install koa-bodyparser  // 获取body 参数，这个koa-bodyparser必须在router之前被注册到app对象上
+
 4、npm install koa-router   // 集中处理url
-5、npm install nodemon 
+
+5、npm install nodemon
 // 修改保存后自动更新。 package.json  文件里的scripts的start 改为`"start": "nodemon app.js",`
 
 app.js 文件变成如下
