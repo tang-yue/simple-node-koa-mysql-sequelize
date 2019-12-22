@@ -45,9 +45,12 @@ app.listen(8080)
 看 [sequelize 中文文档](https://github.com/demopark/sequelize-docs-Zh-CN/tree/master) 中的 Getting started 入门
 
 执行以下步骤
+
 1、npm install sequelize --save
+
 2、npm install mysql2 --save
-3、新建 src 文件夹，在src 下新建文件夹 routers，middlewares，handlers，controllers，models，。
+
+3、新建 src 文件夹，在src 下新建文件夹 routers，middlewares，handlers，controllers，models
 
 在 middlewares 下新建config.js
 
