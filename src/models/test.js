@@ -1,5 +1,4 @@
 const { Sequelize } = require('sequelize')
-const moment = require('moment')
 
 const user = function (seq) {
     // 新建表user

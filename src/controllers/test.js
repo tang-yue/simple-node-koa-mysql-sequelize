@@ -1,4 +1,3 @@
-const { Sequelize } = require('sequelize');
 const test = require('../models/test');
 
 // 增加
@@ -29,7 +28,7 @@ const deleteItem = function (seq, ctx) {
     })
 }
 
-const getInfo = function (seq, ctx) {
+const getInfo = function (seq) {
   return new Promise((resolve, reject) => {
     const UserModel = test(seq)
     UserModel.findAll().then(res => {

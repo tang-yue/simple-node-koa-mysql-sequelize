@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 
 
 module.exports = () => {
-  return async (ctx, next) => { 
+  return async (ctx, next) => {
 
     const options = {
         host: 'localhost',
@@ -20,7 +20,7 @@ module.exports = () => {
         max: 10,
       }
     })
-    ctx.sequelize = seq  // 挂载上下文
+    ctx.sequelize = seq // 挂载上下文
     await next()
   }
 }
