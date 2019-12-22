@@ -241,3 +241,4 @@ userRouter(app, '/user')
 3、直接使用mysql [参考](https://sequelize.org/master/class/lib/sequelize.js~Sequelize.html#instance-method-define)
 
 4、[sequelize中文文档参考](https://github.com/demopark/sequelize-docs-Zh-CN/tree/master)
+
